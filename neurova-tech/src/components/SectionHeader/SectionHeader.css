@@ -1,0 +1,51 @@
+.section-header {
+    width: 92%;
+    max-width: 1600px;
+
+    /* More breathing room from Hero */
+    margin: 16px auto 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+
+    color: #0F172A;
+
+    margin-bottom: 6px;
+}
+
+.section-line {
+    width: 30px;
+    height: 3px;
+
+    border-radius: 20px;
+
+    background: #0891B2;
+}
+
+.view-all {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-top: 8px;
+
+    text-decoration: none;
+
+    color: #0891B2;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: all .25s ease;
+}
+
+.view-all:hover {
+    color: #0E7490;
+    gap: 10px;
+}

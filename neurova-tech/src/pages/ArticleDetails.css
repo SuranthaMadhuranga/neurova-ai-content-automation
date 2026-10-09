@@ -1,0 +1,417 @@
+/* ===========================
+        Layout
+=========================== */
+
+.article-details {
+
+    width: 92%;
+    max-width: 900px;
+
+    margin: 40px auto 70px;
+}
+
+/* ===========================
+        Header
+=========================== */
+
+.article-header {
+
+    margin-bottom: 35px;
+}
+
+.article-date {
+
+    color: #64748B;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    margin-bottom: 18px;
+}
+
+.article-title {
+
+    font-size: 3rem;
+
+    font-weight: 800;
+
+    line-height: 1.2;
+
+    color: #0F172A;
+}
+
+/* ===========================
+        Hero Image
+=========================== */
+
+.article-Dimage {
+
+    width: 100%;
+    height: 400px;
+    border-radius: 18px;
+
+    object-fit: cover;
+
+    margin-bottom: 50px;
+
+    box-shadow: 0 8px 25px rgba(15,23,42,.08);
+}
+
+/* ===========================
+      Markdown Content
+=========================== */
+
+.article-markdown {
+
+    color: #475569;
+
+    font-size: 18px;
+
+    line-height: 1.9;
+}
+
+/* ===========================
+        Headings
+=========================== */
+
+.article-markdown h1 {
+
+    font-size: 2.4rem;
+
+    font-weight: 800;
+
+    color: #0F172A;
+
+    margin: 60px 0 30px;
+}
+
+.article-markdown h2 {
+
+    font-size: 2rem;
+
+    font-weight: 800;
+
+    color: #0F172A;
+
+    margin-top: 65px;
+
+    margin-bottom: 30px;
+
+    padding-bottom: 12px;
+
+    border-bottom: 2px solid #E2E8F0;
+}
+
+.article-markdown h3 {
+
+    font-size: 1.4rem;
+
+    font-weight: 700;
+
+    color: #0F172A;
+
+    margin-top: 40px;
+
+    margin-bottom: 20px;
+
+    padding: 14px 18px;
+
+    background: #F8FAFC;
+
+    border-left: 4px solid #0EA5A4;
+
+    border-radius: 10px;
+}
+
+.article-markdown h4 {
+
+    font-size: 1.2rem;
+
+    font-weight: 700;
+
+    color: #0F172A;
+
+    margin-top: 35px;
+
+    margin-bottom: 18px;
+}
+
+/* ===========================
+        Paragraph
+=========================== */
+
+.article-markdown p {
+
+    margin-bottom: 22px;
+}
+
+/* ===========================
+        Strong
+=========================== */
+
+.article-markdown strong {
+
+    color: #0F172A;
+
+    font-weight: 700;
+}
+
+/* ===========================
+        Lists
+=========================== */
+
+.article-markdown ul,
+.article-markdown ol {
+
+    margin: 22px 0 30px 30px;
+}
+
+.article-markdown li {
+
+    margin-bottom: 12px;
+
+    color: #475569;
+}
+
+.article-markdown li::marker {
+
+    color: #0EA5A4;
+}
+
+/* ===========================
+        Links
+=========================== */
+
+.article-markdown a {
+
+    color: #0EA5A4;
+
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+.article-markdown a:hover {
+
+    text-decoration: underline;
+}
+
+/* ===========================
+        Images
+=========================== */
+
+.article-markdown img {
+
+    width: 100%;
+    margin: 35px 0;
+
+    border-radius: 18px;
+
+    box-shadow: 0 8px 25px rgba(15,23,42,.08);
+}
+
+/* ===========================
+      Blockquotes
+=========================== */
+
+.article-markdown blockquote {
+
+    margin: 35px 0;
+
+    padding: 24px;
+
+    background: #F8FAFC;
+
+    border-left: 5px solid #0EA5A4;
+
+    border-radius: 0 14px 14px 0;
+
+    color: #475569;
+
+    font-style: italic;
+}
+
+/* ===========================
+      Inline Code
+=========================== */
+
+.article-markdown code {
+
+    background: #EEF0F7;
+
+    color: #0F172A;
+
+    padding: 3px 8px;
+
+    border-radius: 6px;
+
+    font-size: .95rem;
+}
+
+/* ===========================
+      Code Blocks
+=========================== */
+
+.article-markdown pre {
+
+    background: #F8FAFC;
+
+    border: 1px solid #E2E8F0;
+
+    border-radius: 16px;
+
+    padding: 22px;
+
+    overflow-x: auto;
+
+    margin: 35px 0;
+
+    box-shadow: 0 6px 18px rgba(15,23,42,.05);
+}
+
+.article-markdown pre code {
+
+    background: transparent;
+
+    color: inherit;
+
+    padding: 0;
+}
+
+/* ===========================
+        Tables
+=========================== */
+
+.article-markdown table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin: 35px 0;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+}
+
+.article-markdown th {
+
+    background: #EEF0F7;
+
+    color: #0F172A;
+
+    text-align: left;
+
+    padding: 15px;
+
+    border: 1px solid #E2E8F0;
+}
+
+.article-markdown td {
+
+    padding: 15px;
+
+    border: 1px solid #E2E8F0;
+}
+
+/* ===========================
+      Horizontal Rule
+=========================== */
+
+.article-markdown hr {
+
+    border: none;
+
+    border-top: 1px solid #E2E8F0;
+
+    margin: 60px 0;
+}
+
+/* ===========================
+      Back Button
+=========================== */
+
+.back-link {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 50px;
+
+    color: #0EA5A4;
+
+    font-weight: 700;
+
+    text-decoration: none;
+
+    transition: .3s ease;
+}
+
+.back-link:hover {
+
+    transform: translateX(-5px);
+
+    color: #0891B2;
+}
+
+/* ===========================
+      Loading
+=========================== */
+
+.article-loading {
+
+    min-height: 50vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #475569;
+}
+
+/* ===========================
+      Responsive
+=========================== */
+
+@media (max-width:768px){
+
+    .article-details{
+
+        width:95%;
+    }
+
+    .article-title{
+
+        font-size:2.2rem;
+    }
+
+    .article-markdown{
+
+        font-size:16px;
+    }
+
+    .article-markdown h1{
+
+        font-size:2rem;
+    }
+
+    .article-markdown h2{
+
+        font-size:1.7rem;
+    }
+
+    .article-markdown h3{
+
+        font-size:1.25rem;
+
+        padding:12px 16px;
+    }
+
+}

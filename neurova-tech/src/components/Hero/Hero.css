@@ -1,0 +1,165 @@
+.hero {
+    width: 92%;
+    max-width: 1600px;
+
+    margin: 24px auto;
+
+    /* Left padding only */
+    padding: 22px 0 22px 42px;
+
+    min-height: 380px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    background: #EEF0F7;
+    border: 1px solid #E3E8EF;
+    border-radius: 18px;
+
+    overflow: hidden;
+}
+
+.hero-content {
+    flex: 1.1;
+    max-width: 600px;
+
+    position: relative;
+    z-index: 5;
+}
+
+.hero-tag {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0891B2;
+    letter-spacing: .5px;
+}
+
+.hero h1 {
+    margin: 14px 0;
+
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 1.1;
+
+    color: #0F172A;
+}
+
+.hero h1 span {
+    color: #0EA5A4;
+}
+
+.hero p {
+    margin-bottom: 28px;
+
+    font-size: 19px;
+    line-height: 1.7;
+
+    color: #475569;
+
+    max-width: 540px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.primary-btn {
+    height: 52px;
+    padding: 0 28px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #0891B2;
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.primary-btn:hover {
+    background: #0E7490;
+}
+
+.secondary-btn {
+    height: 52px;
+    padding: 0 28px;
+
+    border: 1px solid #CBD5E1;
+    border-radius: 10px;
+
+    background: #FFFFFF;
+    color: #1E293B;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.secondary-btn:hover {
+    background: #F1F5F9;
+}
+
+/*hero image*/
+.hero-image {
+    flex: 1;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+
+    height: 100%;
+
+    margin-top: -22px;
+    margin-bottom: -22px;
+    margin-right: -1px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-image::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    width: 320px;
+
+    background: linear-gradient(
+        to right,
+        #EEF0F7 0px,
+        #EEF0F7 90px,
+        rgba(238,240,247,0.98) 120px,
+        rgba(238,240,247,0.75) 170px,
+        rgba(238,240,247,0.45) 220px,
+        rgba(238,240,247,0.18) 270px,
+        rgba(238,240,247,0.00) 320px
+    );
+
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+.hero-image img {
+    width: 100%;
+    height: calc(100% + 44px);
+
+    max-width: 720px;
+
+    object-fit: cover;
+    object-position: center;
+
+    display: block;
+}

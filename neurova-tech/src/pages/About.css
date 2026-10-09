@@ -1,0 +1,153 @@
+.about-page {
+
+    width: 92%;
+    max-width: 1600px;
+
+    margin: 35px auto 70px;
+}
+
+.about-hero {
+
+    background: #EEF0F7;
+
+    border: 1px solid #E2E8F0;
+
+    border-radius: 18px;
+
+    padding: 60px;
+
+    text-align: center;
+}
+
+.about-tag {
+
+    color: #0891B2;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    letter-spacing: .5px;
+}
+
+.about-hero h1 {
+
+    margin: 18px 0;
+
+    font-size: 52px;
+
+    color: #0F172A;
+
+    font-weight: 800;
+}
+
+.about-hero h1 span {
+
+    color: #0EA5A4;
+}
+
+.about-hero p {
+
+    max-width: 760px;
+
+    margin: auto;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    color: #475569;
+}
+
+/* ===========================
+        Cards
+=========================== */
+
+.about-cards {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 28px;
+
+    margin-top: 45px;
+}
+
+.about-card {
+
+    background: #FFFFFF;
+
+    border: 1px solid #E2E8F0;
+
+    border-radius: 18px;
+
+    padding: 35px;
+
+    box-shadow:
+        0 4px 10px rgba(15, 23, 42, 0.04),
+        0 12px 30px rgba(15, 23, 42, 0.08);
+
+    transition: all .3s ease;
+}
+
+.about-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 10px 25px rgba(15, 23, 42, 0.08),
+        0 20px 45px rgba(15, 23, 42, 0.12);
+}
+
+.about-icon {
+
+    width: 48px;
+
+    height: 48px;
+
+    color: #0EA5A4;
+
+    margin-bottom: 20px;
+}
+
+.about-card h3 {
+
+    font-size: 24px;
+
+    color: #0F172A;
+
+    margin-bottom: 15px;
+}
+
+.about-card p {
+
+    color: #475569;
+
+    line-height: 1.8;
+
+    font-size: 16px;
+}
+
+/* ===========================
+        Responsive
+=========================== */
+
+@media (max-width: 900px) {
+
+    .about-cards {
+
+        grid-template-columns: 1fr;
+    }
+
+    .about-hero {
+
+        padding: 40px 30px;
+    }
+
+    .about-hero h1 {
+
+        font-size: 40px;
+    }
+
+}

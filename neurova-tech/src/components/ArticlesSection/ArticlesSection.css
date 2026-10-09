@@ -1,0 +1,11 @@
+.articles-section {
+    width: 92%;
+    max-width: 1600px;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px; /* Try 22px */
+}

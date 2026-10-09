@@ -1,0 +1,236 @@
+.footer {
+    width: 92%;
+    max-width: 1600px;
+
+    margin: 70px auto 30px;
+
+    background: #EEF0F7;
+    border: 1px solid #E2E8F0;
+    border-radius: 18px;
+
+    overflow: hidden;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+
+    gap: 60px;
+
+    padding: 30px 42px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 18px;
+}
+
+.footer-column a {
+    display: block;
+    text-decoration: none;
+
+    color: #475569;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    margin-bottom: 12px;
+
+    transition: .3s;
+}
+
+.footer-column a:hover {
+    color: #0EA5A4;
+}
+
+/* ======================
+        Logo
+====================== */
+
+.footer-logo {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 18px;
+
+    white-space: nowrap;
+}
+
+.footer-logo-icon {
+
+    font-size: 32px;
+    margin-top: -12px;
+    color: #0EA5A4;
+
+    flex-shrink: 0;
+
+    display: block;
+
+    transform: translateY(1px);
+}
+
+.footer-logo-text {
+
+    display: flex;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    white-space: nowrap;
+
+    line-height: 1;
+}
+
+.footer .logo-neurova,
+.footer .logo-tech {
+
+    font-size: 23px;
+
+    font-weight: 700;
+
+    line-height: 1;
+
+    white-space: nowrap;
+}
+
+.footer .logo-neurova {
+
+    color: #0EA5A4;
+}
+
+.footer .logo-tech {
+
+    color: #0F172A;
+}
+
+/* ======================
+      Description
+====================== */
+
+.footer-description {
+
+    max-width: 310px;
+
+    color: #475569;
+
+    line-height: 1.7;
+
+    font-size: 15px;
+
+    margin-bottom: 24px;
+}
+
+/* ======================
+     Social Icons
+====================== */
+
+.footer-socials {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+}
+
+.footer-socials a {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 10px;
+
+    color: #334155;
+
+    background: #F8FAFC;
+
+    border: 1px solid #E2E8F0;
+
+    transition: .3s;
+}
+
+.footer-socials a:hover {
+
+    background: #0EA5A4;
+
+    color: white;
+
+    border-color: #0EA5A4;
+
+    transform: translateY(-2px);
+}
+
+/* ======================
+        Bottom
+====================== */
+
+.footer-bottom {
+
+    border-top: 1px solid #E2E8F0;
+
+    padding: 18px;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    color: #64748B;
+}
+
+/* ======================
+        Tablet
+====================== */
+
+@media (max-width:1100px){
+
+    .footer-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:40px;
+    }
+
+}
+
+/* ======================
+        Mobile
+====================== */
+
+@media (max-width:768px){
+
+    .footer{
+
+        width:95%;
+
+        margin:50px auto 20px;
+    }
+
+    .footer-container{
+
+        grid-template-columns:1fr;
+
+        padding:35px 28px;
+
+        gap:35px;
+    }
+
+    .footer-description{
+
+        max-width:100%;
+    }
+
+}
